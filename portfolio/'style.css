@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: monospace;
+    background: #2e2e2f;
+  }
+  #profilepic{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 12px;
+    cursor:pointer;
+  }
+  nav{
+    height: 80px;
+    width: 100%;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+  }
+  a:hover{
+    background: #61f903;
+    transition: .5s;
+    text-transform: uppercase;
+  }
+.name{
+
+    margin-left: 120px;
+    margin-right: 25px;
+    float: right;
+    margin-top: 180px;
+}
+#name1{
+    color: #61f903;
+    cursor: pointer;
+    font-size: 50px;
+}
+#name1:hover{
+    transition: color 0.6s ease;
+    color:rgb(255, 155, 195)
+}
+#tagline{
+    color:antiquewhite;
+    font-size: 15px;
+    margin-left: 150px;
+}
+.desc{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    float: right;
+    font-size: 15px;
+    border: #61f903 solid;
+    will-change: transform;
+    transition: transform 450ms;
+}
+.desc:hover{
+      transition-delay: 0.2s;
+      transition: transform 125ms;
+      transform: translateY(-20px);
+      box-shadow: #408118 0px 20px 30px -10px;
+
+}
+.desc p{
+  color: whitesmoke;
+  padding: 12px;
+}
+.content{
+  margin: 70px;
+  padding:15px;
+  display: grid;
+  color: forestgreen;
+  font-size: 18px;
+  grid-template-rows: 340px 280px;
+  grid-template-columns: 370px 100px 370px  100px 370px 350px;
+  will-change: transform;
+  transition: transform 450ms;
+
+}
+#proo{
+  border:#61f903 solid;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+
+}
+#proo a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#proo p{
+  padding: 5px;
+}
+#hobbies{
+  border:#61f903 solid;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 4;
+
+}
+#hobbies p{
+  padding: 5px;
+}
+#extras{
+  border:#61f903 solid;
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-row-end: 3;
+  grid-column-end: 6;
+}
+#extras p{
+  padding: 5px;
+}
+#proo:hover, #hobbies:hover, #extras:hover{
+  transition-delay: 0.2s;
+  transition: transform 125ms;
+  transform: translateY(15px);
+  box-shadow: #ade689 0px 25px 30px -10px;
+}
+#img1, #img2, #img3{
+  margin: 3px;
+  padding: 1px;
+}
+#projectsline, #hobbiesline, #extracc{
+  font-size: 25px;
+  margin: 3px;
+  padding: 1px;
+  color:beige;
+}
+#projectsline:hover, #hobbiesline:hover, #extracc:hover{
+  text-decoration: underline;
+}
+.footer
+{
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 300px 130px 750px 80px 60px 60px 60px 60px;
+    font-weight: 900;
+    color: #408118;
+}
+#ig
+{
+    grid-row: 1/ 2 ;
+    grid-column: 4/5;
+}
+#ig a:hover{
+  background:none;
+}
+#git
+{
+    grid-row: 1/ 2 ;
+    grid-column: 5/6;
+}
+#git a:hover{
+  background:none;
+}
+#ld
+{
+    grid-row: 1/ 2 ;
+    grid-column: 6/7;
+}
+#ld a:hover{
+  background:none;
+}
+.about{
+  margin: 5px;
+  padding: 5px;
+}
+.about h1{
+  text-align: center;
+  color: beige;
+  text-decoration: underline;
+  font-size: 36px;
+}
+.about h2{
+  text-align: center;
+  color: forestgreen;
+}
+.about h3{
+  font-size: 23px;
+  color: beige;
+  text-decoration: underline;
+}
+.about p{
+  font-size: 20px;
+  color:#61f903;
+}
+.certscont{
+  margin: 5px;
+  padding: 5px;
+}
+.certscont h1{
+  color: beige;
+  font-size: 36px;
+}
+.certscont h3{
+  font-size: 30px;
+  color:#61f903;
+  text-decoration: underline;
+}
+.certscont p{
+  font-size: 15px;
+  color:#61f903;
+}
+.resume h1{
+  text-align: center;
+  font-size: 40px;
+  color:#61f903;
+  text-decoration: underline;
+
+}
+.contacts{
+  padding: 7px;
+  margin:7px;
+}
+.contacts a{
+  text-decoration: none;
+  color: bisque;
+}
+
+.contacts h2{
+  color: forestgreen;
+}
+.phone{
+  color:bisque;
+}
